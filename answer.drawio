@@ -1,0 +1,106 @@
+<mxfile host="65bd71144e">
+    <diagram id="aXvCSk1-IEiDKixKnwkK" name="第1頁">
+        <mxGraphModel dx="764" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="112" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="20" y="30" width="620" height="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="發布公告" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="112">
+                    <mxGeometry x="416.24413145539916" y="205.7142857142857" width="203.75586854460096" height="171.42857142857144" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="委員隨時新增、修改與刪除" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="2">
+                    <mxGeometry x="14.553990610328642" y="42.85714285714286" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="讓住戶隨時查看包裹與信件是否簽收" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="2">
+                    <mxGeometry x="-9.70266040688576" y="85.71428571428572" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="社區" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="112">
+                    <mxGeometry width="194.05320813771516" height="171.42857142857144" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="信件與包裹的收發任務" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3">
+                    <mxGeometry x="29.107981220657273" y="42.85714285714286" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="社區發布公告" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3">
+                    <mxGeometry x="48.51330203442879" y="85.71428571428572" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="包含住戶與委員" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3">
+                    <mxGeometry x="43.66197183098591" y="128.57142857142858" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="112" source="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="361.9092331768389" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="住戶" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="112">
+                    <mxGeometry x="264.397496087637" y="428.57142857142856" width="194.05320813771516" height="171.42857142857144" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="針對公告進行文章回應" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="4">
+                    <mxGeometry x="29.107981220657273" y="85.71428571428572" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="手機綁定APP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="4">
+                    <mxGeometry x="48.51330203442879" y="42.85714285714286" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="112" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="518.1220657276996" y="514.2857142857142"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="112" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint y="514.2857142857142"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="委員" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="112">
+                    <mxGeometry x="112.55086071987482" y="205.7142857142857" width="194.05320813771516" height="171.42857142857144" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="只有委員能編輯與刪除公告" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="5">
+                    <mxGeometry x="14.553990610328636" y="42.85714285714286" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="擁有專屬的職位" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="5">
+                    <mxGeometry x="43.66197183098591" y="85.71428571428572" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="112" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="48.51330203442879" y="291.4285714285714"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="112" source="6" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="112" source="6" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="APP" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="112">
+                    <mxGeometry x="252.26917057902975" width="218.30985915492957" height="171.42857142857144" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="確認簽收後，&lt;br&gt;傳送或推播簡訊給包裹所屬人" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="6">
+                    <mxGeometry x="21.830985915492956" y="38.57142857142857" width="180" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="只有委員能編輯與刪除公告" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="6">
+                    <mxGeometry x="26.682316118935834" y="85.71428571428572" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="住戶最多可綁定2支手機APP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="6">
+                    <mxGeometry x="26.682316118935834" y="128.57142857142858" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="112" source="3" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="112" source="5" target="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="361.9092331768389" y="248.57142857142856"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
